@@ -1,1 +1,1 @@
-# test_repository
+# example_repository
