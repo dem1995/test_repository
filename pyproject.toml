@@ -42,7 +42,8 @@ changelog = "https://github.com/yourusername/your-package-name/releases"
 
 [tool.setuptools]
 package-dir = { "" = "library" }
-packages = ["library"]
+[tool.setuptools.packages.find]
+where = ["library"]
 
 [tool.pytest.ini_options]
 minversion = "6.0"
