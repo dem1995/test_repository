@@ -44,9 +44,6 @@ changelog = "https://github.com/yourusername/your-package-name/releases"
 package-dir = { "" = "library" }
 packages = ["library"]
 
-[tool.setuptools.packages.find]
-where = ["library"]
-
 [tool.setuptools.scripts]
 your-script-name = "your_package_name.module:function_name"
 
