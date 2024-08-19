@@ -39,10 +39,10 @@ docs = [
 
 
 [project.urls]
-homepage = "https://github.com/yourusername/your-package-name"
-repository = "https://github.com/yourusername/your-package-name"
-documentation = "https://your-package-name.readthedocs.io"
-changelog = "https://github.com/yourusername/your-package-name/releases"
+homepage = "https://github.com/yourusername/your"
+repository = "https://github.com/yourusername/your"
+documentation = "https://your.readthedocs.io"
+changelog = "https://github.com/yourusername/your/releases"
 
 [tool.setuptools]
 package-dir = { "" = "library" }
