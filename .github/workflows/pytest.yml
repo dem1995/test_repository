@@ -27,8 +27,11 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        python -m pip install pytest
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        # Install the dependencies specified in pyproject.toml (core dependencies)
+        python -m pip install .
+        # Install additional dependencies for testing (e.g., pytest)
+        python -m pip install .[testing]
     - name: Test with pytest
       run: |
         pytest
+
