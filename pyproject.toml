@@ -25,16 +25,17 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = [
-    "pytest>=6.2",
-    "flake8>=3.9",
+    "pytest>=6",
+    "flake8>=3.8",
+    "pre-commit >= 3.8.0"
 ]
 testing = [
     "pytest>=6.2",
     "flake8>=3.9",
 ]
 docs = [
-    "Sphinx>=4.0",
-    "sphinx-rtd-theme>=0.5.2",
+    "Sphinx>=8.0",
+    "piccolo-theme>=0.2.3",
 ]
 
 
